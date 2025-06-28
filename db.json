@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Morning Rituals",
+      "content": "A warm cup of coffee and a quiet moment to plan the day.",
+      "author": "Asha",
+      "image": "https://source.unsplash.com/400x300/?coffee"
+    },
+    {
+      "id": 2,
+      "title": "Favorite Reads",
+      "content": "Currently reading 'Diary of a CEO",
+      "author": "Asha",
+      "image": "https://source.unsplash.com/400x300/?book"
+    },
+    {
+      "id": 3,
+      "title": "Rainy Afternoons",
+      "content": "Rain tapping on the window is the perfect soundtrack.",
+      "author": "Asha",
+      "image": "https://source.unsplash.com/400x300/?rain"
+    }
+  ]
+}

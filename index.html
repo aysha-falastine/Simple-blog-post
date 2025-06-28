@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>The Everyday Muse</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <h1>The Everyday Muse 🌿</h1>
+
+  <div id="post-list"></div>
+
+  <div id="post-detail">
+    <h2>Post Details</h2>
+    <p>Select a post to see details.</p>
+  </div>
+
+  <h3>Add a New Post</h3>
+  <form id="new-post-form">
+    <input type="text" name="title" placeholder="Title" required />
+    <input type="text" name="author" placeholder="Author" required />
+    <textarea name="content" placeholder="Content" required></textarea>
+    <input type="text" name="image" placeholder="Image URL (optional)" />
+    <button type="submit">Add Post</button>
+  </form>
+
+  <form id="edit-post-form" class="hidden">
+    <h4>Edit Post</h4>
+    <label for="edit-title">Title:</label>
+    <input type="text" id="edit-title" name="title" />
+    <label for="edit-content">Content:</label>
+    <textarea id="edit-content" name="content"></textarea>
+    <button type="submit">Update Post</button>
+    <button type="button" id="cancel-edit">Cancel</button>
+  </form>
+
+  <script src="./src/index.js"></script>
+</body>
+</html>

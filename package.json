@@ -1,0 +1,23 @@
+{
+  "name": "simple-blog-post",
+  "version": "1.0.0",
+  "description": "EVERYDAY MUSE!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aysha-falastine/Simple-blog-post.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aysha-falastine/Simple-blog-post/issues"
+  },
+  "homepage": "https://github.com/aysha-falastine/Simple-blog-post#readme",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
